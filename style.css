@@ -62,15 +62,15 @@ main {
 
 .card-gallery {
     background-color: white;
-    padding-inline: 2em;
+    padding: 6em 2em;
     border: solid 1px red;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
-    padding-top: 3rem;
+    gap: 2rem;
 }
 
 .card {
+    border-radius: 12px;
     padding: 1em;
     display: flex;
     flex-direction: column;
@@ -82,7 +82,13 @@ main {
     height: 220px;
     background-color: lightgray;
     border-radius: 8px;
-
+}
 
 /* Responsive smaller screens */
 
+@media only screen and (max-width: 725px) {
+  .card-gallery {
+    display: flex;
+    flex-direction: column;
+  }
+}
