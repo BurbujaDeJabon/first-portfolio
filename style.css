@@ -49,7 +49,7 @@ main {
 /* Jumbotron / Hero */
 
 .jumbotron {
-    min-height: 40vh;
+    min-height: 60vh;
     background-color: #c8c8c8;
     display: grid;
     place-content: center;
