@@ -7,6 +7,7 @@
 
     <!--local styles-->
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./form-styles.css">
     <!--local script-->
     <script src="./script.js" defer> </script>
     <!--google font-->
@@ -36,6 +37,36 @@
     </header>
 
     <main>
+
+             <!-- ╔════════════════════════════════════════╗ -->
+             <!--                 🌸 FORM 🌸                -->
+             <!-- ╚════════════════════════════════════════╝ -->
+
+        <form action="/submit-contact-form" method="POST" class="contact-form">
+            <fieldset>
+              <legend>Contact Us</legend>
+              
+              <!-- Name -->
+              <label for="name">Name: <span style="color: red;">*</span></label>
+              <input type="text" id="name" name="name" required placeholder="Enter your name" />
+          
+              <!-- Email -->
+              <label for="email">Email: <span style="color: red;">*</span></label>
+              <input type="email" id="email" name="email" required placeholder="Enter your email" />
+          
+              <!-- Contact Number -->
+              <label for="contact">Contact No:</label>
+              <input type="tel" id="contact" name="contact" placeholder="Enter your contact number" />
+          
+              <!-- Message -->
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" rows="6" placeholder="Enter your message"></textarea>
+              
+              <!-- Submit Button -->
+              <button type="submit">Send Message</button>
+            </fieldset>
+          </form>
+          
 
     </main>
 </body>
