@@ -1,4 +1,10 @@
-.contact-form, .contact-form input, .contact-form textarea, .contact-form button {
+main {
+  min-height: 100vph;
+  display: grid;
+  place-content: center;
+}
+
+fieldset {
     border: none;
   }
 
@@ -32,12 +38,14 @@
     border: 2px solid #ff66cc;
     border-radius: 8px;
     font-size: 14px;
+    font-family: inherit;
   }
 
   .contact-form input:focus, .contact-form textarea:focus {
-    border-color: #ff3399;
+    border-color: #d633ff;
     outline: none;
   }
+
 
   .contact-form button {
     padding: 12px 25px;
