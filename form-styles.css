@@ -2,7 +2,6 @@ main {
   min-height: 100vph;
   display: grid;
   place-content: center;
-  background-color: pink;
 }
 
 fieldset {
@@ -12,7 +11,7 @@ fieldset {
 .contact-form {
     width: 100%;
     max-width: 500px;
-    margin: 0 auto;
+    margin: 50px auto 50px;
     padding: 20px;
     background-color: #f9f9f9;
     border-radius: 8px;
