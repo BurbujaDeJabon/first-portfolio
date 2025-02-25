@@ -91,6 +91,10 @@ main {
     border-radius: 5000px;
 }
 
+.cta-view {
+    width: 30%;
+    align-self: flex-end;
+}
 /* Responsive smaller screens */
 
 @media only screen and (max-width: 825px) {
